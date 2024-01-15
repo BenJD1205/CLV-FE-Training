@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link';
 import {AiOutlineGoogle} from 'react-icons/ai'
-import Input from '@/app/components/input/Input';
-import Button from '@/app/components/button/Button';
+import Input from '@/components/input/Input';
+import Button from '@/components/button/Button';
 import styles from '../auth.module.css';
 
 type Props = {}
@@ -28,7 +28,7 @@ const Login = (props: Props) => {
           <Button type="submit" className='bg-blue-500 rounded text-[#ffffff] font-400 p-2'>Sign In</Button>
           <Button type="button" className='rounded text-[#000000] font-400 p-2 flex items-center justify-center gap-2 border-solid border-2 border-neutral-700'><AiOutlineGoogle /> Google</Button>
         </form>
-        <p className='text-gray-700 text-[14px]'>Don't have an account?<Link href='/register' className='text-blue-600 cursor-pointer'> Sign up</Link></p>
+        <p className='text-gray-700 text-[14px]'>Don&apos;t have an account?<Link href='/register' className='text-blue-600 cursor-pointer'> Sign up</Link></p>
       </div>
     </div>
   )

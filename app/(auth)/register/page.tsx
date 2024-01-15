@@ -1,8 +1,8 @@
 'use client';
 import Link from 'next/link';
 import React, {useState} from 'react'
-import Button from '@/app/components/button/Button';
-import Input from '@/app/components/input/Input';
+import Button from '@/components/button/Button';
+import Input from '@/components/input/Input';
 import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai';
 import styles from '../auth.module.css';
 
