@@ -1,0 +1,19 @@
+.item{
+    padding:10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap:8px;
+    align-items: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.item:last-child{
+    border-right: none;
+}
+
+.item>span{
+    color:#ccc;
+    font-size: 14px;
+}
