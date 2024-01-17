@@ -15,7 +15,7 @@ const Button:FC<Props> = ({
   ...props
 }) => {
   return (
-    <button type={type} className={className} {...props}>{children}</button>
+    <button type={type} className={className} {...props} onClick={onSubmit}>{children}</button>
   )
 }
 
